@@ -1,0 +1,57 @@
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    gap:2rem;
+}
+
+.pinksection{
+    background: url('../public/pink-girl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width:40%;
+    border-radius: 10px;
+}
+.text{
+    width: 40%;
+    text-align: center;
+}
+.text div{
+    display: flex;
+    justify-content: center;
+}
+.text img{
+    width: 45px;
+    height: 45px;
+}
+.text input{
+    /* margin: 1rem 0;
+    font-size: 1rem;
+    border: 1px dotted gray;
+    padding: .5rem 1rem; */
+    display: none;
+}
+.text h3{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.text p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:680px){
+    .upload{
+        display: block;
+        margin:4rem 1rem;
+        /* width: ; */
+    }
+    .text{
+        width: 100%;
+        margin: 5rem 0;
+    }
+    .pinksection{
+        width: 100%;
+    }
+  }

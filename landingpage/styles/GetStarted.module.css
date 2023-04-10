@@ -1,0 +1,54 @@
+.getstarted{
+    background-color: rgba(175, 250, 225, 0.5);
+    display: flex;
+    justify-content: center;
+    padding: 5rem 2rem;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+.getstarted button{
+    padding: .5rem 4rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color:rgb(92, 91, 91);
+    cursor: pointer;
+    gap:2rem;
+    font-size: 1.2rem;
+}
+.getstarted p{
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(50, 50, 50);
+}
+.getstarted button:hover{
+    background-color: rgba(198, 194, 194, 0.5);
+}
+.getstarted button img{
+    height: 30px;
+    width: 30px;
+}
+.getstarted h2{
+    font-size: 3rem;
+    text-align: center;
+    color:rgb(50, 50, 50);
+}
+@media screen and (max-width:680px){
+    .getstarted h2{
+        font-size: 2rem;
+    }
+    .getstarted p{
+        font-size: 1rem;
+    }
+    .getstarted button{
+        padding: .5rem 2rem;
+    }
+  }

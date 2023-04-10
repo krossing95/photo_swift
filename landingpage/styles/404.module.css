@@ -1,0 +1,16 @@
+.error{
+    min-height: 100vh;
+    background-color: rgba(175, 250, 225, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.error h1{
+    font-size: 3rem;
+}
+
+.error h2{
+    margin: 1rem 0;
+}
+.error p{
+    margin: 1rem 0;
+}

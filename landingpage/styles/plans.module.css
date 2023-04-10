@@ -1,0 +1,51 @@
+.plans{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin: 10rem 0;
+}
+.plan{
+    background-color: #fff;
+    padding:2rem 1rem;
+    width: 25%;
+    border-radius: 10px;
+}
+.plan button{
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 38);
+    color: #f9f6f6;
+    font-weight: 600;
+}
+.plan button:hover{
+    background-color: blue;
+}
+.plans ul{
+    margin: 2rem 0;
+}
+.plans ul li{
+    list-style: none;
+    margin: 1rem 0;
+    color: gray;
+}
+.plans h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(79, 78, 78);
+}
+
+.plans h3{
+    font-size: 2rem;
+    color: rgb(79, 78, 78);
+}
+@media screen and (max-width:680px){
+    .plans{
+        display: block;
+        margin:4rem 1rem;
+    }
+    .plan{
+        width: 100%;
+        margin: 1rem 0;
+    }
+  }
